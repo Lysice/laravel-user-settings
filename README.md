@@ -11,7 +11,7 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
   ```php
   'providers' => array(
     // ...
-    'Grimthorr\LaravelUserSettings\ServiceProvider',
+    'Lysice\LaravelUserSettings\ServiceProvider',
   ),
   ```
 
@@ -20,7 +20,7 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
   ```php
   'aliases' => array(
     // ...
-    'Setting' => 'Grimthorr\LaravelUserSettings\Facade',
+    'Setting' => 'Lysice\LaravelUserSettings\Facade',
   ),
   ```
 
@@ -30,7 +30,7 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
 
 
 ## Configuration
-Pop open `config/laravel-user-settings.php` to adjust package configuration. If this file doesn't exist, run `php artisan vendor:publish --provider="Grimthorr\LaravelUserSettings\ServiceProvider" --tag="config"` to create the default configuration file.
+Pop open `config/laravel-user-settings.php` to adjust package configuration. If this file doesn't exist, run `php artisan vendor:publish --provider="Lysice\LaravelUserSettings\ServiceProvider" --tag="config"` to create the default configuration file.
 
 ```php
 return array(
@@ -151,4 +151,4 @@ Feel free to create a fork and submit a pull request if you would like to contri
 Raise an issue on GitHub if you notice something broken.
 
 #### Credits
-Based loosely on https://github.com/anlutro/laravel-settings.
+Based loosely on https://github.com/grimthorr/laravel-settings.
