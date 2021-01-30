@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimthorr\LaravelUserSettings;
+namespace Lysice\LaravelUserSettings;
 
 
 class Setting {

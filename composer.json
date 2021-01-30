@@ -1,12 +1,12 @@
 {
-    "name": "grimthorr/laravel-user-settings",
-    "description": "Simple user settings facade for Laravel 5.",
-    "homepage": "https://github.com/Grimthorr/laravel-user-settings",
+    "name": "lysice/laravel-user-settings",
+    "description": "Simple user settings facade for Laravel.",
+    "homepage": "https://github.com/Lysice/laravel-user-settings",
     "license": "MIT",
     "authors": [
         {
-            "name": "Grimthorr",
-            "email": "phil@hughesbox.co.uk",
+            "name": "lysice",
+            "email": "snowist@126.com",
             "homepage": "http://hughesbox.co.uk"
         }
     ],

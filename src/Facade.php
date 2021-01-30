@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimthorr\LaravelUserSettings;
+namespace Lysice\LaravelUserSettings;
 
 
 class Facade extends \Illuminate\Support\Facades\Facade {
@@ -9,5 +9,5 @@ class Facade extends \Illuminate\Support\Facades\Facade {
     {
         return 'setting';
     }
-    
+
 }
