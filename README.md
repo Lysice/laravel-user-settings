@@ -1,7 +1,6 @@
 # laravel-user-settings
 Simple user settings facade for Laravel 5. Settings are stored as JSON in a single database column, so you can easily add it to an existing table (`users` for example).
 
-**Still using Laravel 4?** Make sure to use [version 1.x](https://github.com/Grimthorr/laravel-user-settings/tree/laravel4) instead (`composer require Lysice/laravel-user-settings ~1.0`).
 
 
 ## Installation
@@ -15,7 +14,7 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
   ),
   ```
 
-3. Add `'Setting' => 'Grimthorr\LaravelUserSettings\Facade'` to `aliases` in `config/app.php`.
+3. Add `'Setting' => 'Lysice\LaravelUserSettings\Facade'` to `aliases` in `config/app.php`.
 
   ```php
   'aliases' => array(
@@ -24,9 +23,9 @@ Simple user settings facade for Laravel 5. Settings are stored as JSON in a sing
   ),
   ```
 
-4. Run `php artisan vendor:publish --provider="Grimthorr\LaravelUserSettings\ServiceProvider" --tag="config"` to publish the config file.
+4. Run `php artisan vendor:publish --provider="Lysice\LaravelUserSettings\ServiceProvider" --tag="config"` to publish the config file.
 5. Modify the published configuration file located at `config/laravel-user-settings.php` to your liking.
-6. Create a varchar (string) column in a table on your database to match the config file in step 5. Alternatively, use the Laravel migration included in this package to automatically create a `settings` column in the `users` table: `php artisan vendor:publish --provider="Grimthorr\LaravelUserSettings\ServiceProvider" --tag="migrations" && php artisan migrate`.
+6. Create a varchar (string) column in a table on your database to match the config file in step 5. Alternatively, use the Laravel migration included in this package to automatically create a `settings` column in the `users` table: `php artisan vendor:publish --provider="Lysice\LaravelUserSettings\ServiceProvider" --tag="migrations" && php artisan migrate`.
 
 
 ## Configuration
